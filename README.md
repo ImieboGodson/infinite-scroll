@@ -1,12 +1,10 @@
-# <!-- Please update value in the {}  -->
-
 
 <h1 align="center">Infinite Scroll</h1>
 
 <div align="center">
   <h3>
     <span> | </span>
-    <a href="https://imiebogodson.github.io/quote-generator/">
+    <a href="">
       Demo
     </a>
     <span> | </span>
