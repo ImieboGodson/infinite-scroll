@@ -10,11 +10,80 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <title>Infinite Scroll</title>
+    <title>Peaklr</title>
 
 </head>
 <body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <!-- Logo -->
+        <div class="logo" id="logo">
+            <h1>PKLR</h1>
+        </div>
+        <!-- Search Box -->
+        <div class="searchBox" id="searchBox">
+            <a href="#"><i class="fas fa-search fa-1x"></i></a>
+            <input type="search" class="search-input" id="search-input" placeholder="Search free high-resolution photos" title="Search Unsplash">
+        </div>
+        <!-- Links -->
+        <div class="links" id="links">
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="Github"><i class="fab fa-github-alt"></i></a>
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" title="Dev.to"><i class="fab fa-dev"></i></a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="overlay-texture">
+        </div>
+        <div class="hero-center-items" id="hero-center-items">
+            <h1>Peaklr</h1>
+            <P class="firstText">This was created using the Unsplash API</P>
+            <p class="secondtText">It was an attempt to combine the Unsplash API with the infinite scroll feature.</p>
+            <!-- Search Box -->
+            <div class="searchBox" id="searchBox">
+                <a href="#"><i class="fas fa-search fa-1x"></i></a>
+                <input type="search" class="search-input" id="search-input" placeholder="Search free high-resolution photos" title="Search Unsplash">
+            </div>
+        </div>
+        <div class="hero-bottom-texts" id="hero-bottom-texts">
+            <p>Background Image by <a href="#" class="hero-image-creator" id="hero-image-creator">James Barrion</a></p>
+            <p>Made by <a href="#" target="_blank">Godson Imiebo</a></p>
+            <p>Powered by the <a href="#" target="_blank">Unsplash API</a></p>
+        </div>
+    </section>
+
+    <section class="container" id="container">
+        <div class="image-grid" id="image-grid">
+            <div class="grid-row" id="grid-row">
+                <a href=""><img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixid=MXwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" width="416px" alt=""></a>
+                <a href=""><img src="https://images.unsplash.com/photo-1617547270310-fd4ff70509de?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" width="416px" alt=""></a>
+            </div>
+            <div class="grid-row" id="grid-row">
+                <a href=""><img src="https://images.unsplash.com/photo-1617538781871-bfe89e84b61f?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" width="416px" alt=""></a>
+                <a href=""><img src="https://images.unsplash.com/photo-1617553310924-97e3c48ccde1?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" width="416px" alt=""></a>
+            </div>
+            <div class="grid-row" id="grid-row">
+                <a href=""><img src="https://images.unsplash.com/photo-1617541327538-aaaffdd3c214?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" width="416px" alt=""></a>
+                <a href=""><img src="https://images.unsplash.com/photo-1617252820855-a829ba1babe7?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" width="416px" alt=""></a>
+            </div>
+            <!-- 
+            
+            
+             -->
+        </div>
+        
+    </section>
+
     
+
+    
+    <!-- Loader -->
+    <div class="loader" id="loader" hidden>
+        <img src="loader.svg" alt="loading" >
+    </div>
 
     <!-- Script -->
     <script src="main.js"></script>
